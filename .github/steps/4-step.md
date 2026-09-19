@@ -217,7 +217,7 @@ git push
 
 > 🤷 **如果 `git add .` 說沒有東西可以 commit**,代表那兩個檔案被 commit 在 `fix/issue-N` 分支上了。這樣做:
 > ```bash
-> git switch main
+> git switch mainfix: 建立 issue 修正工作流程 prompt (#1)
 > git checkout fix/issue-3 -- .github/copilot-instructions.md .github/prompts/fix-issue.prompt.md
 > git add .
 > git commit -m "step 4: 建立 copilot-instructions 與 fix-issue 劇本"
